@@ -5,7 +5,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class PostmanTest {
     @Test
-    void test(){
+    void test() {
         // Given - When - Then
 // Предусловия
         given()
@@ -18,7 +18,7 @@ public class PostmanTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("I'm so tiredy"))
+                .body("data", equalTo("I'm so tired"))
         ;
     }
 }
